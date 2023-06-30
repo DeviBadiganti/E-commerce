@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-commerce</title>
+
+  <!-- css link -->
+  <link rel="stylesheet" href="/style.css">
+
+  <!-- cdn link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- bootstrap link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="e-commerce">
+           <!-- nav section starts -->
+           <h1 class="heading">E-commerce</h1>
+     <nav class="navbar navbar-expand-lg navbar-light bg-light container-fluid">
+    <div class="container">
+        <form class="d-flex position-relative">
+            <input class="form-control me-2" type="Search" placeholder="Search" aria-label="Search">
+            <i class="fa-sharp fa-solid fa-magnifying-glass search-bar"></i>
+            <button class="btn btn-outline-success" type="login">login</button>
+          </form>
+        <div class="d-flex">
+          <i class="fa-solid fa-cart-shopping" onclick="myFunction()"></i>
+          <h5 class="carthead" onclick="myFunction()">cart</h5>
+        </div>
+        </div>
+  </nav>
+      <!-- nav section ends -->
+
+      <section class="cart-items">
+          <div class="space-hide">
+          <button class="sapce-btn" onclick="myFunction()">x</button>
+          <div class="listempty"></div>
+        </div>
+
+      </section>
+
+      <!-- cards starts-->
+        <section class="cards-product">
+    <div class="container"> 
+      <div class="row g-5 cards-ecommerce">
+      </div>
+    </div>
+  </section>
+  <!-- cards ends-->
+  
+   <!-- tap button -->
+  <div class="tap-btn">
+    <a href="#"><i class="fa-solid fa-angle-up"></i></a>
+   </div>
+
+   <!-- js link -->
+  <script src="/main.js"></script>
+</body>
+</html>
